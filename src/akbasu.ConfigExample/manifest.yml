@@ -1,0 +1,10 @@
+﻿---
+applications:
+- name: akbasu_Config_Example
+  buildpacks:
+    - dotnet_core_buildpack
+  stack: cflinuxfs3
+  services:
+    - myConfigService
+  env:
+    ASPNETCORE_ENVIRONMENT: staging      
