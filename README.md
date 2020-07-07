@@ -11,7 +11,7 @@ cf create-service p-config-server trial myConfigService -c repo.json
 cf push -f manifest.yml -p .\publish
 ```
 
-Switch ASPNETCORE_ENVIRONMENT between development and staging. Push and see changes in the API response
+Switch ASPNETCORE_ENVIRONMENT variable value between 'development' and 'staging'. Push and see changes in the API response
 
 
 
