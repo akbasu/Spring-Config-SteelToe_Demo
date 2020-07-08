@@ -44,9 +44,6 @@ namespace akbasu.ConfigExample
             {
                 app.UseDeveloperExceptionPage();
             }
-
-
-
        
             app.UseRouting();
             app.UseEndpoints(endpoints =>
