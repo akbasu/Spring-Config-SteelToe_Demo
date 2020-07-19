@@ -7,6 +7,14 @@ cf create-service p-config-server trial myConfigService -c repo.json
 ```
 
 ### Push API code to PCF
+
+Navigate to the project folder and publish the project
+
+```sh
+<Repository directory>src\akbasu.ConfigExample> dotnet publish -o .\publish akbasu.ConfigExample.csproj
+```
+
+Push to Cloud Foundry
 ```sh
 cf push -f manifest.yml -p .\publish
 ```
