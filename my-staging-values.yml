@@ -1,2 +1,3 @@
 Value1: staging-some-val
 Value2: staging-another-val
+ConnectionString: Server=(Config-Staging-DB)\\MSSQLLocalDB;Database=_CHANGE_ME;Trusted_Connection=True;MultipleActiveResultSets=true
