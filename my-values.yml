@@ -1,2 +1,3 @@
 Value1: some-val
 Value2: another-val
+ConnectionString: "Server=(Config-DB)\\MSSQLLocalDB;Database=_CHANGE_ME;Trusted_Connection=True;MultipleActiveResultSets=true"
